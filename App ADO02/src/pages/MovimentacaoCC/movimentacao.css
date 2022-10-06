@@ -1,0 +1,43 @@
+.tituloMovimentacao{
+    text-align: center;
+}
+
+.subtituloMovimentacao{
+    text-align: center;
+}
+.barra {
+    background-color: red;
+    height: 50px;
+    width: 100%;
+ 
+ }
+ 
+ ul#barra_links {
+ 
+ display: flex;
+ text-align: center;
+ 
+ 
+ }
+ #barra_links li {
+ 
+     padding: 15px;
+     font-size: 14px;
+     font-weight: 800;
+     text-transform: uppercase;
+     font-family: Verdana;
+ }
+ 
+ #barra_links li a {
+     padding-bottom: 10px;
+     color:white;
+ }
+ #barra_links li a:hover {
+ border-bottom: 3px solid #fff;
+ transition: all .0.5s ease-in; 
+ }
+ 
+ li {
+ 
+     list-style-type:none;
+ }
