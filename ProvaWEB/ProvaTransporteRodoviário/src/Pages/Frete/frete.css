@@ -1,0 +1,58 @@
+.formulario{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    margin: auto;
+}
+
+.botaoCalcular{
+    font-family: 'Poppins', sans-serif;
+
+    width: 50%;
+    margin: auto;
+
+    padding: 10px;
+    border: solid 0.2px rgb(19, 25, 99);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    transition-duration: 0.5s;
+}
+
+.botaoCalcular:hover{
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    background: gray;
+    box-shadow: 2px 2px 2px black;
+}
+
+.botaoCalcular:active{
+    position: relative;
+    top: 7px;
+
+    background: rgb(86, 86, 197);
+    box-shadow: none;
+}
+
+.input{
+    font-family: 'Poppins', sans-serif;
+
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: solid 0.2px rgb(151, 24, 24);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

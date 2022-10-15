@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+hr{
+    width: 70%;
+    margin: auto;
+}
+
+.principalLogin{
+    width: 70%;
+    margin: auto;
+
+    border: 1px solid rgb(165, 67, 67);
+    border-radius: 15px;
+    box-shadow: 16px 16px 5px rgb(168, 72, 72);
+    padding: 10px;
+    background: rgb(167, 156, 156);
+
+    position: absolute;
+    top: 23%;
+    left: 15%;
+
+    transition-duration: 1s;
+}
+
+.principalLogin:hover{
+    transition-timing-function: ease;
+
+    position: absolute;
+    top: 22%;
+    box-shadow: 32px 32px 16px rgb(102, 53, 53);
+}
+
+.tituloLogin{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+}
+
+.inputsDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 80%;
+    margin: 20px auto 0px auto;
+    padding: 20px;
+}
+
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+
+
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.inputs{
+    font-family: 'Poppins', sans-serif;
+
+
+    background: #faf9f9;
+    color: rgb(151, 57, 57);
+
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 0.2px rgb(158, 6, 6);
+}
+
+.botaoDiv{
+    padding: 20px;
+    text-align: center;
+}
+
+.botao{
+    font-family: 'Poppins', sans-serif;
+
+    background: #d8c4c4;
+
+    padding: 10px;
+    border: solid 0.2px rgb(156, 28, 28);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(202, 82, 82);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    transition-duration: 0.5s;
+}
+
+.botao:hover{
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    background: rgb(165, 100, 100);
+    box-shadow: 2px 2px 2px black;
+}
+
+.botao:active{
+    position: relative;
+    top: 7px;
+
+    background: rgb(93, 93, 197);
+    box-shadow: none;
+}
+
+.mensagemDiv{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.mensagem{
+    font-family: 'Poppins', sans-serif;
+
+    text-align: center;
+    font-size: 18px;
+
+    list-style: none;
+}

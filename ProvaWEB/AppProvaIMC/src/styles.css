@@ -1,0 +1,78 @@
+/** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*
+* SENAC - TADS - Programacao Web *
+*       Calculadora IMC*
+* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*
+* Nome : << Gustavo Aquino de OLiveira e Hernandez Oliveira > > *
+* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+.fundo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    font-weight: 800;
+    background: linear-gradient(to bottom, rgba(87, 86, 52, 0.021) 0, rgba(177, 179, 161, 0.69) 100%), url(https://img.freepik.com/vetores-premium/calculadora-e-fundo-de-lapis_188544-6127.jpg?w=740);
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    margin-top: 10%;
+}
+
+span{
+    margin: 12px 0;
+    color: white;
+}
+
+.tabela{
+    display: flow-root;
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 18, 18);
+    border-radius: 20px;
+    opacity: 0.95;
+}
+
+.tabela input{
+    width: 80%;
+    margin-bottom: 12px;
+    height: 46px;
+    background-color: #ffe7e7;
+    border: 0;
+    border-radius: 10px;
+    color: black;
+    padding: 0 12px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.tabela button{
+    width: 80%;
+    height: 46px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #357AFF;
+    color: #FFF;
+    font-size: 18px;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+    color: white!important;
+    padding: 25px;
+}
+
+.rodape{
+    margin-top: 80px;
+    font-size: 20px;
+    color: #FFFF;
+}

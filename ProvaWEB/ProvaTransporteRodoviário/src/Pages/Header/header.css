@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.principalHeader{
+    background: rgb(119, 11, 11);
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    align: center;
+    justify-content: space-between;
+}
+
+.tituloHeader{
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 50px;
+
+    color: rgb(113, 142, 158);
+}
+
+.loginHeader{
+    font-family: 'Inter Tight', sans-serif;
+
+    color: rgb(113, 142, 158);
+    padding: 10px;
+    text-decoration: none;
+
+    margin: auto 0px;
+
+    height: 50%;
+
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.loginHeader:hover{
+    position: relative;
+    top: -2px;
+    box-shadow: 2px 2px 5px black;
+    background: rgb(44, 70, 83);
+}
+
+.loginHeader:active{
+    position: relative;
+    top: 3px;
+
+    box-shadow: none;
+}
+
+.navbar{
+    width: 340px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.navbar-lista{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-item{
+    font-family: 'Inter Tight', sans-serif;
+
+    color: rgb(113, 142, 158);
+    text-decoration: none;
+    border: solid 1.8px white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.navbar-item:hover{
+    position: relative;
+    top: -2px;
+    box-shadow: 2px 2px 5px rgb(50, 24, 141);
+    background: rgb(44, 70, 83);
+}
+
+.navbar-item:active{
+    position: relative;
+    top: 3px;
+
+    box-shadow: none;
+}
